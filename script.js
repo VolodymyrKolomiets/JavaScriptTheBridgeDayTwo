@@ -126,8 +126,8 @@ for ( wrd in arrayStr) {
 let z = 1 
 
 while(z<20) { 
-    if((z % 3) == 0){ 
-      console.log("Patata") 
+    if(z % 3 == 0){ 
+      console.log(`${z} patata`) 
      } 
      z++ 
  }
